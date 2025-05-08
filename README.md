@@ -37,8 +37,8 @@
 
 ## 5. FastAPI 서버 설정
 
-* 경로: /home/deb/debkr/serv/record\_server.py
-* venv 위치: /home/deb/debkr/serv/venv
+* 경로: $HOME/serv/record\_server.py
+* venv 위치: $HOME/serv/venv
 * 서비스 파일: /etc/systemd/system/record\_server.service
 * 포트: 18000
 
@@ -74,11 +74,11 @@
 
 * MariaDB 정기 백업 스크립트
 
-  * 경로: /home/deb/backup/db\_backup.sh
+  * 경로: $HOME/backup/db\_backup.sh
   * crontab 자동 실행 (일일/주간)
 * FastAPI 외부 수신 기록 파일 자동 보관
 
-  * 경로: /home/deb/record\_external/
+  * 경로: $HOME/record\_external/
 
 ## 11. 관리자 시스템 상세 기능
 
@@ -130,7 +130,7 @@
 
 * 자동 PDF 리포트 생성 (admin\_event\_report.php)
 * PDF 파일명: event\_report\_YYYYMMDD.pdf
-* PDF 저장 경로: /home/deb/record\_external/reports/
+* PDF 저장 경로: $HOME/record\_external/reports/
 
 ## 14. 외부 API 연동 계획
 
